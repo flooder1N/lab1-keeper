@@ -56,4 +56,3 @@ public:
 std::ostream& operator<<(std::ostream& out, const Base& figure);
 
 #endif
-

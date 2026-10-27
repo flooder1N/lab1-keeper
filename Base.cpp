@@ -136,7 +136,7 @@ void Base::setSize(int index, double value) {
         validate();
     }
     catch (...) {
-        sizes[index] = old;   // откат при ошибке
+        sizes[index] = old; // откат при ошибке
         throw;
     }
 }
@@ -159,7 +159,7 @@ void Base::setSizes(const double* values, int count) {
         validate();
     }
     catch (...) {
-        for (int i = 0; i < count; ++i) sizes[i] = backup[i];   // откат при ошибке
+        for (int i = 0; i < count; ++i) sizes[i] = backup[i]; // откат при ошибке
         delete[] backup;
         throw;
     }
