@@ -1,3 +1,4 @@
+#include "Painter.h"
 #include "VolumeFigure.h"
 #include "Exceptions.h"
 #include <iostream>
